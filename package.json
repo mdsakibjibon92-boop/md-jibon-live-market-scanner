@@ -1,0 +1,52 @@
+{
+  "name": "md-jibon-live-market-scanner",
+  "version": "1.0.0",
+  "description": "Advanced market scanner for Quotex with AI decision support",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "dev": "expo start --dev-client",
+    "build-android": "eas build --platform android",
+    "build-ios": "eas build --platform ios",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.73.0",
+    "expo": "^50.0.0",
+    "expo-router": "^3.0.0",
+    "expo-screen-orientation": "^6.0.0",
+    "expo-permissions": "^14.0.0",
+    "@react-native-community/hooks": "^3.0.0",
+    "axios": "^1.6.0",
+    "@tensorflow/tfjs": "^4.0.0",
+    "@tensorflow/tfjs-react-native": "^0.8.0",
+    "react-native-svg": "^13.14.0",
+    "react-native-gesture-handler": "^2.14.0",
+    "react-native-reanimated": "^3.0.0",
+    "@react-native-async-storage/async-storage": "^1.21.0",
+    "zustand": "^4.4.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "expo-dev-client": "^3.0.0"
+  },
+  "keywords": [
+    "quotex",
+    "trading",
+    "market-scanner",
+    "ai-signals",
+    "binary-options"
+  ],
+  "author": "MD Jibon",
+  "license": "PRIVATE"
+}
